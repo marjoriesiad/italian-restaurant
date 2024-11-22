@@ -1,8 +1,10 @@
+import Navbar from "./Components/Navbar"
+
 function App() {
 
   return (
     <>
-      <p className="underline">hi</p>
+      <Navbar />
         
     </>
   )
