@@ -5,11 +5,11 @@ import AboutUs from "./Sections/AboutUs";
 function App() {
 
   return (
-    <>
+    <div>
       <Navbar />
       <Hero />
       <AboutUs />
-    </>
+    </div>
   )
 }
 
