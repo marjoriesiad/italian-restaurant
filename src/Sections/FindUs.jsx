@@ -2,8 +2,7 @@ import React from 'react';
 import Minimap from '../utils/Minimap';
 
 const FindUs = () => {
-    const position = [48.8566, 2.3522];
-    
+   
   return (
     <div className='h-screen w-full bg-[#D9D9D9] flex flex-col justify-around items-center text-slate-700'>
         <div className='flex gap-32 w-[720px]'>
