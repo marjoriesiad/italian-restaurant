@@ -11,7 +11,7 @@ const Menu = () => {
             <img src="https://firebasestorage.googleapis.com/v0/b/code-up-31d9f.appspot.com/o/pro-projects-ressources%2Frestaurant%2Fbg-menu-section.png?alt=media" alt="" className='w-full brightness-50' />
         </div>
         <div className='absolute flex flex-col justify-center items-center gap-20'>
-            <h2 className='text-white text-3xl underline uppercase'>Our Menu</h2>
+            <h2 className='text-white text-3xl underline uppercase font-bold'>Our Menu</h2>
             <div>
                 <div className='flex flex-col'>
                     <div className='bg-white flex mb-5 w-[229px] h-[42px] rounded-lg justify-around items-center p-2'>
