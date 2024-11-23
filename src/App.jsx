@@ -2,6 +2,7 @@ import Navbar from "./Components/Navbar";
 import Hero from "./Sections/Hero";
 import AboutUs from "./Sections/AboutUs";
 import Menu from "./Sections/Menu";
+import FindUs from "./Sections/FindUs";
 
 function App() {
 
@@ -11,6 +12,7 @@ function App() {
       <Hero />
       <AboutUs />
       <Menu />
+      <FindUs />
     </div>
   )
 }
