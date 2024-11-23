@@ -9,9 +9,9 @@ const Navbar = () => {
       </div>
       <div className='flex gap-5 font-semibold'>
         <a href="#about-us">About Us</a>
-        <a href="#">Menu</a>
-        <a href="#">Find us</a>
-        <a href="#">Contact</a>
+        <a href="#menu">Menu</a>
+        <a href="#find-us">Find us</a>
+        <a href="#contact">Contact</a>
       </div>
     </div>
   )

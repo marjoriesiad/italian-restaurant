@@ -1,6 +1,7 @@
 import Navbar from "./Components/Navbar";
 import Hero from "./Sections/Hero";
 import AboutUs from "./Sections/AboutUs";
+import Menu from "./Sections/Menu";
 
 function App() {
 
@@ -9,6 +10,7 @@ function App() {
       <Navbar />
       <Hero />
       <AboutUs />
+      <Menu />
     </div>
   )
 }
