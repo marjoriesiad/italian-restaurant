@@ -12,6 +12,8 @@ function App() {
       <Hero />
       <AboutUs />
       <Menu />
+      <FindUs />
+      <ContactUs />
       </div>
       
   );
