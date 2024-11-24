@@ -7,14 +7,12 @@ import ContactUs from "./Sections/ContactUs";
 
 function App() {
   return (
-    <div>
+    <div className="">
       <Navbar />
       <Hero />
       <AboutUs />
-      <Menu />
-      <FindUs />
-      <ContactUs />
-    </div>
+      </div>
+      
   );
 }
 

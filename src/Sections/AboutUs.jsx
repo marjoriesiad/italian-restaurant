@@ -9,7 +9,7 @@ const AboutUs = () => {
       <img
         src="https://firebasestorage.googleapis.com/v0/b/code-up-31d9f.appspot.com/o/pro-projects-ressources%2Frestaurant%2Fabout-us.png?alt=media"
         alt=""
-        className="w-[331px] h-[395px] rounded-lg shadow-xl"
+        className="hidden md:block lg:block w-[331px] h-[395px] rounded-lg shadow-xl"
       />
       <div className=" flex flex-col gap-5 w-[338px] h-[395px] justify-center text-slate-700">
         <h2 className="uppercase text-3xl underline font-bold">About Us</h2>
