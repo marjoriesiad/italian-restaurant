@@ -20,7 +20,7 @@ const Menu = () => {
                         ))}
                     </div>
                 </div>
-                <div className='h-[400px] w-[735px] bg-white flex justify-around items-center pb-5 text-slate-700'>
+                <div className='h-[400px] w-[735px] bg-white flex justify-around items-center pb-5 text-slate-700 rounded-lg'>
                     {Object.entries(menuItems[activeCategory]).map(([itemName, itemDetails]) => (
                     <div className='flex flex-col w-[200px] h-[350px] gap-2'>
                     <img src={itemDetails.image} alt="" className='w-[200px] h-[200px] rounded-lg'/>
