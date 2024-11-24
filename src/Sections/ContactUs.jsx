@@ -16,7 +16,7 @@ const ContactUs = () => {
       {/* Contenu centré */}
       <div className="relative z-10 flex flex-col items-center gap-8">
         {/* Logo et titre */}
-        <div className="flex flex-col items-center gap-2">
+        <div className="flex flex-col items-center gap-2 mf:flex-row lg:flex-row">
           <img
             src="https://firebasestorage.googleapis.com/v0/b/code-up-31d9f.appspot.com/o/pro-projects-ressources%2Frestaurant%2Flogo.png?alt=media"
             alt="Logo"
@@ -28,7 +28,7 @@ const ContactUs = () => {
         </div>
 
         {/* Icônes des réseaux sociaux */}
-        <div className="flex flex-col items-center gap-4">
+        <div className="flex flex-col items-center gap-4 md:flex-row lg:flex-row">
           <a href="#">
             <img
               src="https://firebasestorage.googleapis.com/v0/b/code-up-31d9f.appspot.com/o/pro-projects-ressources%2Frestaurant%2Ffb.png?alt=media"

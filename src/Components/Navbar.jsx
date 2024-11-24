@@ -56,13 +56,13 @@ const Navbar = () => {
         <div className="fixed top-12 w-full rounded-md shadow-md z-50 pt-5 bg-white">
           <ul className="flex flex-col">
             <li className="px-4 py-2 hover:bg-gray-200">
-              <a href="#hero">About us</a>
+              <a href="#about-us">About us</a>
             </li>
             <li className="px-4 py-2 hover:bg-gray-200">
               <a href="#menu">Menu</a>
             </li>
             <li className="px-4 py-2 hover:bg-gray-200">
-              <a href="#find-s">Find us</a>
+              <a href="#find-us">Find us</a>
             </li>
             <li className="px-4 py-2 hover:bg-gray-200">
               <a href="#contact">Contact</a>
