@@ -2,7 +2,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className="h-screen w-full md:overflow-hidden flex flex-col items-center justify-center">
+    <div className="h-screen w-full md:overflow-hidden flex flex-col items-center justify-center" id="hero">
     <img
       src="https://firebasestorage.googleapis.com/v0/b/code-up-31d9f.appspot.com/o/pro-projects-ressources%2Frestaurant%2Fmain-picture.png?alt=media"
       alt=""

@@ -9,11 +9,13 @@ const Navbar = () => {
   return (
     <div className="flex items-center justify-between md:justify-around h-14 md:h-20 fixed bg-white w-full z-10">
       <div className="flex items-center gap-2 p-3">
+        <a href="#hero">
         <img
           src="https://firebasestorage.googleapis.com/v0/b/code-up-31d9f.appspot.com/o/pro-projects-ressources%2Frestaurant%2Flogo.png?alt=media"
           alt="Logo Pizzeria Bella Luna"
           className="h-10 w-10"
         />
+        </a>
         <blockquote className="italic hidden md:block">Pizzeria Bella Luna</blockquote>
       </div>
       <div className="gap-5 font-semibold hidden md:flex">
