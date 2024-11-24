@@ -32,7 +32,7 @@ const FindUs = () => {
         </div>
 
         {/* Section Minimap */}
-        <div className="w-full md:w-1/2 flex justify-center">
+        <div className="w-full md:w-1/2 flex justify-center z-0">
           <Minimap />
         </div>
       </div>
