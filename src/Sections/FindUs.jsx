@@ -4,7 +4,7 @@ import Minimap from '../utils/Minimap';
 const FindUs = () => {
    
   return (
-    <div className='h-screen w-full bg-[#D9D9D9] flex flex-col justify-around items-center text-slate-700'>
+    <div className='h-screen w-full bg-[#D9D9D9] flex flex-col justify-around items-center text-slate-700' id='find-us'>
         <div className='flex gap-32 w-[720px]'>
             <div className='flex flex-col gap-5 h-[364px] justify-center'>
             <h2 className='underline uppercase text-3xl font-bold'>Find Us</h2>
