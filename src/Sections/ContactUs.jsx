@@ -2,7 +2,10 @@ import React from "react";
 
 const ContactUs = () => {
   return (
-    <div className="h-screen w-full overflow-hidden flex justify-center">
+    <div
+      className="h-screen w-full overflow-hidden flex justify-center"
+      id="contact"
+    >
       <div className="w-full h-full relative">
         <img
           src="https://firebasestorage.googleapis.com/v0/b/code-up-31d9f.appspot.com/o/pro-projects-ressources%2Frestaurant%2Fcontact-pizza.png?alt=media"

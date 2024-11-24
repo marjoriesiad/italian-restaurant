@@ -6,7 +6,6 @@ import FindUs from "./Sections/FindUs";
 import ContactUs from "./Sections/ContactUs";
 
 function App() {
-
   return (
     <div>
       <Navbar />
@@ -16,7 +15,7 @@ function App() {
       <FindUs />
       <ContactUs />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
